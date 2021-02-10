@@ -21,5 +21,3 @@ the_lines = search_for_this('names.txt', ['Giovanni', 'Ernesto'])
 for elem in the_lines:
     print('word= ',elem[0],'\n' , 'line number = ',elem[1] ,'\n' , 'line = ',elem[2])
     
-if __name__ == '__main__':
-    main()
